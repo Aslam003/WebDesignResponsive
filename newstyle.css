@@ -1,0 +1,40 @@
+img{
+  width : 200px;
+  border: 2px;
+
+}
+
+.sub{
+  border: 2px solid #32130D;
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+}
+.main{
+  display: flex;
+  border:1px solid black;
+  flex-wrap: wrap;
+}
+h6{
+  color: #180F9F
+}
+h1{
+  color: #F70929
+}
+ @media only screen and (max-width:500px) {
+  .main{
+    display: flex;
+    border: solid black;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and(max-width:420px) and (min-width:720px) {
+  .main{
+    display: flex;
+    border: solid black;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content:space-between;
+  }
+}
